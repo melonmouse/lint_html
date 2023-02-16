@@ -30,7 +30,7 @@ https://github.com/htmllint/htmllint-cli
 
 - well maintained
 - very configurable
-- very pupular - but not based on a parser that is affiliated with something official
+- very popular - but not based on a parser that is affiliated with something official
 - works offline
 
 ### Tidy (best official offline option)
