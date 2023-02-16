@@ -15,6 +15,8 @@ Dependencies: [Tidy](https://html-tidy.org) and python3.
 
 ## The competition
 
+
+
 ### html5-lint
 
 https://github.com/mozilla/html5-lint
@@ -32,6 +34,7 @@ https://github.com/htmllint/htmllint-cli
 - very configurable
 - very popular - but not based on a parser that is affiliated with something official
 - works offline
+- opinionated default config (may need some tuning)
 
 ### Tidy (best official offline option)
 
