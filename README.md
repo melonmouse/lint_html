@@ -37,7 +37,7 @@ https://github.com/htmllint/htmllint-cli
 - opinionated default config (may need some tuning)
 - has 254 npm dependencies
 
-### Tidy (best official offline option)
+### Tidy
 
 https://html-tidy.org
 
