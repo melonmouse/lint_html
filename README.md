@@ -10,3 +10,5 @@ Example use:
 ```./lint_html.py index.html```
 
 ```./lint_html.py index.html --custom-inline-tags math```
+
+Dependencies: [Tidy](https://html-tidy.org) and python3.
