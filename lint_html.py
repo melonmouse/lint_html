@@ -63,9 +63,10 @@ def get_ignore_patterns() -> list[str]:
 
     # Remove counts output, which is incorrect if we ignore any warnings.
     tidy_counts_pattern = r'Tidy found \d+ warnings? and \d+ errors?!'
+    tidy_no_error_pattern = f'No warnings or errors were found.'
 
     ignore_patterns = (custom_tag_warning_patterns +
-        [tidy_counts_pattern])
+        [tidy_counts_pattern, tidy_no_error_pattern])
 
     if args.unwrapped_html:
         ignore_patterns += unwrapped_html_warning_patterns
